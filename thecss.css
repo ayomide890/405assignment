@@ -11,21 +11,22 @@ body{
 	background-image: url("needed_pictures/Black-with-Pattern-I.jpg");
 	background-size: cover;
 	width:100%;
-	height:700px;
+	height:1200px;
 }
 .backimg2{
 	background-image: url("needed_pictures/2018-26-01-17-53-50.jpeg");
 	background-size: cover;
 	width:100%;
-	height:700px;
+	height:1200px;
 }
 .backimg3{
 	background-image: url("needed_pictures/2018-27-01-11-33-26.jpeg");
 	background-size: cover;
 	width:100%;
-	height:700px;
+	height:1200px;
 }
 .navbar{
+	background-color: black;
 	position: fixed;
 	box-shadow: 0px 0px 90px 2px black;
 	top:0px;
@@ -45,7 +46,7 @@ body{
 }
 .navlinklist a{
 	position: relative;
-	left: 30px;
+	right: 50px;
 	color:#b38f00;
 	font-family:Garamond, Helvetica, sans-serif;
 	font-size: 15px;
@@ -75,14 +76,20 @@ body{
 	z-index: 100;
 	border-radius: 50%;
 }
+.aylogo{
+	position: fixed;
+	left: 0px;
+}
 .dlogo{
 	display:inline;
 }
 .overlay_homepic{
+	position: relative;
+	top: 0;
 	background-color: black;
 	opacity:0.4;
 	width:100%;
-	height:700px;
+	height:1200px;
 }
 .fonts{
 	position: relative;
@@ -108,9 +115,6 @@ footer{
  	padding: 3.5% 0;
  }
  .topic{
- 	position: relative;
- 	top: 130px;
- 	left:80px;
 	color:#b38f00;
 	font-family:georgia, Helvetica, sans-serif;
 	font-size: 30px;
@@ -118,43 +122,9 @@ footer{
 	text-decoration:none;
 	transition:all 0.5s;
 }
-.topic2{
- 	position: relative;
- 	top: 200px;
- 	left: 80px;
-	color:#b38f00;
-	font-family:georgia, Helvetica, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration:none;
-	transition:all 0.5s;
-}
-.topic3{
- 	position: relative;
- 	top: 390px;
- 	left: 80px;
-	color:#b38f00;
-	font-family:georgia, Helvetica, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration:none;
-	transition:all 0.5s;
-}
-.topic4{
- 	position: relative;
- 	top: 130px;
- 	left: 600px;
-	color:#b38f00;
-	font-family:georgia, Helvetica, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	text-decoration:none;
-	transition:all 0.5s;
-}
-.down{
- 	position: relative;
- 	top: 40px;
- 	left: 80px;
+
+.down1{
+ 	
 	color:white;
 	font-family:Garamond, Helvetica, sans-serif;
 	font-size: 20px;
@@ -162,9 +132,7 @@ footer{
 	transition:all 0.5s;
 }
 .down2{
- 	position: relative;
- 	top: 120px;
- 	left: 80px;
+ 	
 	color:white;
 	font-family:Garamond, Helvetica, sans-serif;
 	font-size: 20px;
@@ -172,9 +140,7 @@ footer{
 	transition:all 0.5s;
 }
 .down3{
- 	position: relative;
- 	top: 200px;
- 	left: 80px;
+ 	
 	color:white;
 	font-family:Garamond, Helvetica, sans-serif;
 	font-size: 20px;
@@ -182,15 +148,14 @@ footer{
 	transition:all 0.5s;
 }
 .down4{
- 	position: relative;
-    bottom: 75px;
- 	left: 600px;
+ 	
 	color:white;
 	font-family:Garamond, Helvetica, sans-serif;
 	font-size: 20px;
 	text-decoration:none;
 	transition:all 0.5s;
 }
+
 .contact{
 	position: relative;
 	color: white;
@@ -205,7 +170,7 @@ input[type=text], select{
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid black;
-	border-radius: 4px;
+	border-radius: 10px;
 	box-sizing:border-box;
 }
 input[type=email],select{
@@ -214,7 +179,7 @@ input[type=email],select{
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid black;
-	border-radius: 4px;
+	border-radius: 10px;
 	box-sizing:border-box;
 }
 input[type=submit]{
@@ -233,10 +198,10 @@ input[type=submit]:hover {
 }
 .forms {
 	position: relative;
-	bottom: 198px;
-	left: 150px;
-	width: 50%;
-    border-radius: 40px;
+	top:200px;
+	left: 40px;
+	width: 70%;
+    border-radius: 100px;
     background-color: transparent;
     padding: 20px;
 }
@@ -267,4 +232,13 @@ input[type=submit]:hover {
 	left: 840px;
 	color: white;
 
+}
+.content{
+	text-align: center;
+}
+
+.foraboutres{
+	position: relative;
+	top: 150px;
+	width: 50%;
 }

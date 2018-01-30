@@ -1,0 +1,68 @@
+@media (max-width:1240px){
+   .logo{
+	top: 5px;
+	left: 10px;
+	border-radius: 50%;
+} 
+body{
+	overflow-y:scroll;
+}
+.contactinfo{
+	position: relative;
+	top: 200;
+	justify-content: center;
+	align-items: center;
+
+}
+}
+@media (max-width:750px){
+
+
+   .navlinklist{
+	padding: 10px 10px;
+
+}
+	
+}
+@media (max-width:463px){
+
+
+   .navlinklist{
+   	position: relative;
+   	left: 30px;
+
+	padding: 5px 5px;
+
+}
+}
+@media (max-width:360px){
+
+
+   .navlinklist{
+	padding: 2px 2px;
+
+}
+}
+@media (max-width:337px){
+   .logo{
+	top: 5px;
+	left: 1px;
+	border-radius: 50%;
+} 
+ .navlinklist{
+ 	margin-left: 245px;
+ 	display: block;
+	padding: 8px 8px;
+
+}
+@media (max-width:1130px){
+	.skills{
+	margin-left: 90px;
+}
+}
+@media (max-width:1096px){
+	.foraboutres{
+	text-align: center;
+}
+   
+}
